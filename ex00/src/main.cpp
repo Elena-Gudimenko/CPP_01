@@ -1,4 +1,4 @@
-#include "../include/Zombie.hpp"
+#include "Zombie.hpp"
 
 int main(void) {
     std::cout << "--Stack allocation (randomChump)--" << std::endl;

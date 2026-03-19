@@ -1,4 +1,4 @@
-#include "../include/Zombie.hpp"
+#include "Zombie.hpp"
 
 #define NUM_ZOMBIES 5
 
