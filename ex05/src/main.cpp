@@ -3,20 +3,20 @@
 int main() {
     Harl harl;
 
-    std::cout << "TESTING DEBUG:" << std::endl;
+    std::cout << "Level DEBUG:" << std::endl;
     harl.complain("DEBUG");
 
-    std::cout << "\nTESTING INFO:" << std::endl;
+    std::cout << "\nLevel INFO:" << std::endl;
     harl.complain("INFO");
 
-    std::cout << "\nTESTING WARNING:" << std::endl;
+    std::cout << "\nLevel WARNING:" << std::endl;
     harl.complain("WARNING");
 
-    std::cout << "\nTESTING ERROR:" << std::endl;
+    std::cout << "\nLevel ERROR:" << std::endl;
     harl.complain("ERROR");
 
-    std::cout << "\nTESTING INVALID:" << std::endl;
-    harl.complain("INVALID");
+    std::cout << "\nLevel EMPTY:" << std::endl;
+    harl.complain("EMPTY");
 
     return 0;    
 }
