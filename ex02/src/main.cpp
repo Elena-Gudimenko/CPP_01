@@ -25,6 +25,6 @@ int main() {
 
     std::cout << "\nValues: " << std::endl;
     std::cout << "O valor da variável str: " << str << std::endl;
-    std::cout << "O valor apontado por stringPTR: " << stringPTR << std::endl;
+    std::cout << "O valor apontado por stringPTR: " << *stringPTR << std::endl;
     std::cout << "O valor apontado por stringREF: " << stringREF << std::endl;
 }
