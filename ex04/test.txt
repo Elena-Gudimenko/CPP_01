@@ -1,4 +1,0 @@
-Hello World
-Hello 42
-Hello Elena
-Helo amigo
